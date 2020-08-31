@@ -16,7 +16,7 @@ ul li a{
     margin-top: 35px;
 }
 .nav-item{
-    font-size:22px;
+    font-size:20px;
     padding-left: 30px;
 }
 .actives{
@@ -203,12 +203,20 @@ td:nth-child(3){
     float:right;
     color: grey;
     font-size:17px;
+    margin-right: 10px;
 }
 .dats{
     float:right;
     color: grey;
     font-size:17px;
     margin-top:37px;
+    margin-right: 10px;
+}
+.dats1{
+    float:right;
+    margin-right: 10px;
+    color: grey;
+    margin-top: 47px;
 }
 .text:hover{
     text-decoration: none;
@@ -233,14 +241,20 @@ td:nth-child(3){
 .footer-links a:hover{
     text-decoration: none;
 }
+.footer-logo{
+    padding-left: 20px;
+}
 .footer-link-title{
     color: #245da6;
+    font-size:16px;
+    margin-top: 15px;
 }
 .fa-heart{
     color: red;
 }
 .footer-links ul li a{
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .footer-text a{
     text-decoration: none;
@@ -324,9 +338,35 @@ a:hover{
     text-align: center;
     border-radius: 50% 50%;
 }
+.footer-android{
+    padding:5px;
+}
+.footer-ios{
+    padding: 5px;
+}
 td:nth-child(2):hover{
     color: blue;
     font-weight: 600;
+}
+td:nth-child(3):hover{
+    color: green;
+    font-weight: 600;
+}
+td:nth-child(4):hover{
+    color: blue;
+    font-weight: 600;
+}
+td:nth-child(5):hover{
+    color: blue;
+    font-weight: 600;
+}
+td:nth-child(7):hover{
+    color: blue;
+    font-weight: 600;
+}
+.footert{
+    display: inline;
+    margin-left: 14px;
 }
 @media(max-width:852px){
     .logo{
@@ -384,6 +424,9 @@ td:nth-child(2):hover{
         margin-right: 30px;
     }
     #bt{
-        margin: 0;
+        margin-left: 10px;
+    }
+    .footer-logo{
+        padding-left: 10px;
     }
 }
